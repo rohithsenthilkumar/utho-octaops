@@ -1,0 +1,13 @@
+{
+  "instance_types": [
+    {"tier": "basic-1",       "vcpu": 1,  "ram_gb": 2,   "monthly_cost_inr": 800,   "category": "basic"},
+    {"tier": "basic-2",       "vcpu": 2,  "ram_gb": 4,   "monthly_cost_inr": 1600,  "category": "basic"},
+    {"tier": "standard-1",    "vcpu": 2,  "ram_gb": 8,   "monthly_cost_inr": 3200,  "category": "standard"},
+    {"tier": "standard-2",    "vcpu": 4,  "ram_gb": 16,  "monthly_cost_inr": 6400,  "category": "standard"},
+    {"tier": "performance-1", "vcpu": 8,  "ram_gb": 32,  "monthly_cost_inr": 12800, "category": "performance"},
+    {"tier": "performance-2", "vcpu": 16, "ram_gb": 64,  "monthly_cost_inr": 25600, "category": "performance"},
+    {"tier": "compute-1",     "vcpu": 32, "ram_gb": 128, "monthly_cost_inr": 51200, "category": "compute"}
+  ],
+  "storage_cost_per_gb_month_inr": 8,
+  "public_ip_monthly_cost_inr": 300
+}
